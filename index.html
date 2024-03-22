@@ -32,7 +32,7 @@
     </font>
 </div>
 <div class="content">
-  <h2 style="text-align:center;">Abstract</h2>
+  <h2 style="text-align:center;"><strong>Abstract</strong></h2>
 <p>Large text-to-image (T2I) models have shown outstanding image generation capabilities, leading to style transfer displaying astonishing stylization effects. To be compatible with T2I models, existing style transfer methods prefer CLIP image model to serve as the style encoder. However, the extracted embeddings from CLIP image model are coupled in content and style expression, inevitably leading to content leakage issue in style transfer. In this paper, we present StyleShot, in which the first style-aware encoder is designed to extract the embeddings expert in style representation. Our StyleShot is a generalized style transfer model capable of generating high-quality stylized images given any reference image without test-time tuning.Additionally, we construct a style-aware dataset based on public datasets, and decouple style as well as content into image and text through de-style processing. Experimental evaluations demonstrate that our StyleShot outperforms existing methods and achieve strong performance across a wide range of styles.</p>
 </div>
 <div class="content">
@@ -42,7 +42,7 @@
   <img class="summary-img" src="./DreamBooth_files/background.png" style="width:100%;"> <br>
 </div>
 <div class="content">
-  <h2>Approach</h2>
+  <h2 style="text-align:center;"><strong>Method</strong></h2>
   <p> Our method takes as input a few images (typically 3-5 images suffice, based on our experiments) of a subject (e.g., a specific dog) and the corresponding class name (e.g. "dog"), and returns a fine-tuned/"personalized'' text-to-image model that encodes a unique identifier that refers to the subject. Then, at inference, we can implant the unique identifier in different sentences to synthesize the subjects in difference contexts.</p>
   <br>
   <img class="summary-img" src="./DreamBooth_files/high_level.png" style="width:100%;"> <br>

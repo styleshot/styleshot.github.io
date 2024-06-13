@@ -42,18 +42,18 @@
 </div>
 <div class="content">
   <h2>Comparable Results</h2>
-  <p>Results for re-contextualization of a bag and vase subject instances. By finetuning a model using our method we are able to generate different images of the a subject instance in different environments, with high preservation of subject details and realistic interaction between the scene and the subject. We display the conditioning prompts below each image. </p>
+  <p>For fair comparison, we present results of ControlNet Shuffle, DreamBooth on Stable Diffusion, InST, StyleDrop (unofficial implementation), StyleCrafter and StyleAligned  applied to four style reference images, with two different text prompts for each reference image. We observe that StyleShot effectively captures a broad spectrum of style features, ranging from basic elements like colors and textures to intricate components like layout, structure, and shading, resulting in a desirable stylized imaged aligned to text prompts. </p>
 <img class="summary-img" src="./StyleShot_files/comparable.png" style="width:100%;">
 </div>
 <div class="content">
   <h2>Controlable Results</h2>
-  <p>Original artistic renditions of our subject dog in the style of famous painters. We remark that many of the generated poses were not seen in the training set, such as the Van Gogh and Warhol rendition. We also note that some renditions seem to have novel composition and faithfully imitate the style of the painter - even suggesting some sort of creativity (extrapolation given previous knowledge).</p>
+  <p>We present the experiments of combining StyleShot with ControlNet and T2I-Adapter. We achieve remarkable results in aligning the style with the reference image and the conditions with the condition image.</p>
   <br>
   <img class="summary-img" src="./StyleShot_files/condition.png" style="width:100%;"> <br>
 </div>
 <div class="content">
-  <h2>Results</h2>
-  <p>Our technique can synthesized images with specified viewpoints for a subject cat (left to right: top, bottom, side and back views). Note that the generated poses are  different from the input poses, and the background changes in a realistic manner given a pose change. We also highlight the preservation of complex fur patterns on the subject cat's forehead.</p>
+  <h2>Extended Results</h2>
+  <p>Additional visualization results of StyleShot. From left to right, Reference style image, ``A cat'', ``A dog'', ``A moose'', ``A chef preparing meals in kitchen'',  ``A house with a tree beside'', ''A wolf walking stealthily through the forest''.</p>
   <br>
   <img class="summary-img" src="./StyleShot_files/extend.png" style="width:100%;"> <br>
 </div>

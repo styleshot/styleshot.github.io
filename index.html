@@ -43,8 +43,8 @@
 <p>StyleShot is built on Stable Diffusion. We first We pre-decouple the multiple level style information from the reference image by partitioning it into varied-size patches and then processing them by varied-depth networks. Next, we train the Transformer Blocks from scratch, along with the learnable style embeddings, to specially capture the rich style representation from patch embeddings. Finally, to preserve the Stable Diffusion model's robust response to text, we employ a parallel cross-attention module for style embedding injection. During training, we only update the parameters in our style-aware encoder and the style cross-attention modules while freezing the others.</p>
 </div>
 <div class="content">
-  <h2>Comparable Results</h2>
-  <p>For fair comparison, we present results of ControlNet Shuffle, DreamBooth on Stable Diffusion, InST, StyleDrop (unofficial implementation), StyleCrafter and StyleAligned  applied to four style reference images, with two different text prompts for each reference image. We observe that StyleShot effectively captures a broad spectrum of style features, ranging from basic elements like colors and textures to intricate components like layout, structure, and shading, resulting in a desirable stylized imaged aligned to text prompts. </p>
+  <h2>Gallery</h2>
+  <p>For fair comparison, we present results on text and image-driven style transfer. Our StyleShot effectively captures a broad spectrum of style features, ranging from basic elements like colors and textures to intricate components like layout, structure, and shading. Transfer your own style with our <a href="https://github.com/Jeoyal/StyleShot">open source code</a> or <a href="online demo">online demo</a>. </p>
 <img class="summary-img" src="./StyleShot_files/comparable.png" style="width:100%;">
 </div>
 <div class="content">

@@ -40,7 +40,7 @@
 <div class="content">
   <h2 style="text-align:center;"><strong>Method</strong></h2>
   <img class="summary-img" src="./StyleShot_files/framework.png" style="width:100%;"> <br>
-<p>StyleShot is built on Stable Diffusion. We first We pre-decouple the multiple level style information from the reference image by partitioning it into varied-size patches and then processing them by varied-depth networks. Next, we train the Transformer Blocks from scratch, along with the learnable style embeddings, to specially capture the rich style representation from patch embeddings. Finally, to preserve the Stable Diffusion model's robust response to text, we employ a parallel cross-attention module for style embedding injection. During training, we only update the parameters in our style-aware encoder and the style cross-attention modules while freezing the others.</p>
+<p>StyleShot is built on Stable Diffusion. To design a style encoder that specially extracts rich and expressive style embedding, our pipeline comprises a style transfer model with a style-aware encoder. Moreover, we proposed a content-fusion encoder (Sec. \ref{sec:3.3}) to enhance the integration of content and style.</p>
 </div>
 <div class="content">
   <h2>Gallery</h2>

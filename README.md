@@ -1,1 +1,1 @@
-# styleshot.github.io
+Webpage for StyleShot

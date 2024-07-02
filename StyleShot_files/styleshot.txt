@@ -1,0 +1,6 @@
+@article{gao2024styleshot,
+  title={StyleShot: A Snapshot on Any Style},
+  author={Junyao, Gao and Yanchen, Liu and Yanan, Sun and Yinhao, Tang and Yanhong, Zeng and Kai, Chen and Cairong, Zhao},
+  booktitle={arXiv preprint arxiv:2407.01414},
+  year={2024}
+} 
